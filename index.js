@@ -73,7 +73,7 @@ client.on("message", async message => {
   if (command) {
     if (!message.guild.me.hasPermission("ADMINISTRATOR"))
       return message.channel.send(
-        "I Don't Have Enough Permission To Use This Or Any Of My Commands | Require : Administrator"
+        "ببورە تکایە بۆ ئەو پێویستیەی تۆ ئەتەوێت پێویستم بە ئادمینیستراتۆرە !"
       );
     command.run(client, message, args);
   }
